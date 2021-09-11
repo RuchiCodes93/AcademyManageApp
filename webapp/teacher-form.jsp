@@ -86,7 +86,7 @@ response.setHeader("Cache-Control","no-cache,no-store,must-revalidate");
 					
 					<select class="custom-select" name="subjectName" id="subjectName">
 						<c:if test="${teacher.teacher_class!= null}">
-							<option value="<c:out value='${teacher.teacher_subject} }'/>"><c:out value ='${teacher.teacher_sub }' /></option>
+							<option value="<c:out value='${teacher.teacher_subject}'/>"><c:out value ='${teacher.teacher_sub }' /></option>
 						</c:if>
 						<option value="1">English</option>
 						<option value="2">Hindi</option>
